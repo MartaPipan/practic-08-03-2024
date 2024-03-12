@@ -17,14 +17,16 @@ a{
     text-decoration: none;
 }
 h1,h2,h3,h4,h5,h6{
-    color: white;
+    color: #ffffff;
 }
 .wrapper{
     width: 50%;
     padding-top: 3em;
+    padding-bottom: 3em;
     margin: auto;
-    text-align:inherit
-}
+    text-align:inherit;
+    border:1px solid #000000;
+    }
 .logo{
     color: white;
     width: 40px;
@@ -40,7 +42,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .main-title{
     font-size: 3em;
-    padding: 0 15%;   
+    padding: 0 12%;
 }
 .btn{
 display: inline-block;
@@ -58,15 +60,15 @@ font-weight: 700;
     color:inherit;
     background-color: rgb(56, 47, 47);
 }
-.one-line{
+/* .one-line{ 
     white-space: nowrap;
     overflow:hidden;
-}
+} */
 .product{
     display: inline-block;
     width: 49%;
     padding: 3em;
-    /* border-style: solid; */
+    
 }
 .product-img{
     height: 310px;
@@ -74,23 +76,28 @@ font-weight: 700;
     border-radius: 20px;
     object-fit: cover;
 }
+.product-position{
+    text-align: left;
+}
 .product-title{
     font-size: 0.8em;
-    text-align: left;
     border-bottom: 2px;
     margin: 0;
 }
 .product-text{
     font-size: 0.8em;
-    text-align: left;
     font-weight: lighter;
     margin: 0;
 }
 .social-list{
-    padding: 0;
+    padding: 1em;
     list-style-type: none;
 }
 .link-footer{
     display: inline-block;
-    padding: 0;
+    padding:1em;
+}
+.footer-name{
+    padding:1em;
+
 }
